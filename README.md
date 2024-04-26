@@ -60,5 +60,5 @@ python ./train.py ./configs/hacs_slowfast.yaml --output reproduce
 We offer pre-trained models for each dataset, which you can download the checkpoint from [Google Driven](https://drive.google.com/drive/folders/1JScEljKDPRxD2v0zYlScVsmayMR3O2XO?usp=drive_link), [Weiyun](https://share.weiyun.com/VZvSGvbY).  The command for test is
 
 ```
-python eval.py ./ckpt/CONFIG_FILE PATH_TO_CHECKPOIN
+python eval.py ./configs/CONFIG_FILE PATH_TO_CHECKPOIN
 ```
