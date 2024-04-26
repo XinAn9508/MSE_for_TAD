@@ -17,7 +17,7 @@ Transformer-based models for Temporal Action Detection have achieved significant
 1. Install the required packages by running the following command:
 
    ```
-   pip install  -r requirements.txt
+   pip install -r requirements.txt
    ```
 
 2. Install NMS
