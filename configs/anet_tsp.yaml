@@ -2,10 +2,8 @@ dataset_name: anet
 train_split: [ 'training' ]
 val_split: [ 'validation' ]
 dataset: {
-  # json_file: ./data/anet_1.3/annotations/anet1.3_tsp_filtered.json,
-  # feat_folder: ./data/anet_1.3/tsp_features,
-  json_file: /home/hj/AX/tridet9/data/anet/anet_1.3/annotations/anet1.3_tsp_filtered.json,
-  feat_folder: /home/hj/AX/tridet9/data/anet/anet_1.3/tsp_features,
+  json_file: ./data/anet_1.3/annotations/anet1.3_tsp_filtered.json,
+  feat_folder: ./data/anet_1.3/tsp_features,
   file_prefix: v_,
   file_ext: .npy,
   num_classes: 1,
